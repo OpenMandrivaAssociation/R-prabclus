@@ -11,10 +11,9 @@ URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_2.2-2.tar.gz
 BuildArch:        noarch
 Requires:         R-core
-Requires:         R-MASS R-mclust 
-Requires:         R-spdep R-maptools R-foreign R-mvtnorm 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-MASS R-mclust
-BuildRequires:    R-spdep R-maptools R-foreign R-mvtnorm 
+Requires:         R-MASS R-mclust R-spdep R-maptools R-foreign R-mvtnorm 
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-MASS R-mclust R-spdep R-maptools R-foreign R-mvtnorm
 
 %description
 Distance-based parametric bootstrap tests for clustering with spatial
