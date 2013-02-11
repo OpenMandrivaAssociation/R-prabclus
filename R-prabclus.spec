@@ -4,7 +4,7 @@
 Name:             R-%{packname}
 Version:          2.2_2
 Release:          1
-Summary:          Functions for clustering of presence-absence, abundance and multilocus genetic data
+Summary:          Clustering of presence-absence, abundance and multilocus genetic data
 Group:            Sciences/Mathematics
 License:          GPL
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
