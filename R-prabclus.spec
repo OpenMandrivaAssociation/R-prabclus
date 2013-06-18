@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          2.2_2
-Release:          1
+Release:          2
 Summary:          Clustering of presence-absence, abundance and multilocus genetic data
 Group:            Sciences/Mathematics
 License:          GPL
