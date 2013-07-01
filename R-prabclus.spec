@@ -42,6 +42,7 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %files
 %dir %{rlibdir}/%{packname}
 %doc %{rlibdir}/%{packname}/html
+%doc %{rlibdir}/%{packname}/extdata
 %doc %{rlibdir}/%{packname}/DESCRIPTION
 %{rlibdir}/%{packname}/INDEX
 %{rlibdir}/%{packname}/NAMESPACE
