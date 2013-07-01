@@ -2,18 +2,19 @@
 %global rlibdir  %{_datadir}/R/library
 
 Name:             R-%{packname}
-Version:          2.2_2
+Version:          2.2.4
 Release:          2
 Summary:          Clustering of presence-absence, abundance and multilocus genetic data
 Group:            Sciences/Mathematics
 License:          GPL
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_2.2-2.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/%{packname}_2.2-4.tar.gz
 BuildArch:        noarch
 Requires:         R-core
-Requires:         R-MASS R-mclust R-spdep R-maptools R-foreign R-mvtnorm 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex
-BuildRequires:    R-MASS R-mclust R-spdep R-maptools R-foreign R-mvtnorm
+Requires:         R-MASS R-mclust 
+Requires:         R-spdep R-maptools R-foreign R-mvtnorm 
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-MASS R-mclust
+BuildRequires:    R-spdep R-maptools R-foreign R-mvtnorm 
 
 %description
 Distance-based parametric bootstrap tests for clustering with spatial
@@ -48,3 +49,11 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/R
 %{rlibdir}/%{packname}/data
 %{rlibdir}/%{packname}/help
+
+
+%changelog
+* Mon Feb 20 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.2_2-1
++ Revision: 777738
+- Import R-prabclus
+- Import R-prabclus
+
