@@ -7,7 +7,7 @@ Release:          2
 Summary:          Clustering of presence-absence, abundance and multilocus genetic data
 Group:            Sciences/Mathematics
 License:          GPL
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_2.2-4.tar.gz
 BuildArch:        noarch
 Requires:         R-core
